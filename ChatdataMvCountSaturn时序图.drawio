@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T03:35:04.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="LQhuCEgfR9r_I0UMR1PT" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T03:41:06.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="bksv2hHM6uQVbeFo3LlN" version="17.4.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="782" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
         <mxCell id="cPGbE8Y1nv4g0ajra35U-43" value="风控物化视图统计Service" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
           <mxGeometry x="960" y="100" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cPGbE8Y1nv4g0ajra35U-44" value="microservice-manage-archives&#xa;MsManageArchiveFeign" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-44" value="microservice-manage-archives&#xa;ChatdataMvService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="160" width="160" height="920" as="geometry" />
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-45" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-44">
@@ -168,6 +168,21 @@
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-48" value="&lt;font color=&quot;#000033&quot;&gt;统计员工的存档客户&lt;br&gt;countCustomerArchivesNum&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="590" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-49" value="员工服务Service" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-50" value="microservice-manage-archives&#xa;EmployeeService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="160" width="160" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-51" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-50">
+          <mxGeometry x="75" y="420" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-53" value="根据员工企微id统计会话&lt;br&gt;countChatdataCustomerMv" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-50">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="500" as="sourcePoint" />
+            <mxPoint x="76.00000000000023" y="500.17999999999984" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
