@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T02:43:31.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="cTrZ6oovaNTPW7QXb9IQ" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T03:02:59.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="jGWt2WJII99Rvgi_V9uK" version="17.4.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="280" y="160" width="120" height="700" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="55" y="80" width="10" height="360" as="geometry" />
+          <mxGeometry x="55" y="80" width="10" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="cPGbE8Y1nv4g0ajra35U-18" value="每次1000个员工&lt;br&gt;轮询统计每个员工会话消息和群聊分析" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="80" y="130" width="120" height="80" as="geometry" />
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-34" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="60" y="310" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -55,6 +55,9 @@
             <mxPoint x="60" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-33" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;这里有问题，列表是空就直接返回而不是继续&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-12">
+          <mxGeometry x="-69" y="378" width="130" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-16" value="统计产生会话的员工&lt;br&gt;key：qw_user_set" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="420" y="250" as="sourcePoint" />
@@ -71,7 +74,7 @@
           <mxGeometry width="141" height="630" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="cPGbE8Y1nv4g0ajra35U-19" vertex="1">
-          <mxGeometry x="65.46428571428571" y="70" width="10.071428571428571" height="410" as="geometry" />
+          <mxGeometry x="65.46" y="70" width="10.07" height="490" as="geometry" />
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-17" value="返回产生会话的员工总数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.067;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cPGbE8Y1nv4g0ajra35U-13">
           <mxGeometry relative="1" as="geometry">
@@ -99,6 +102,24 @@
               <mxPoint x="435.67" y="441" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="480" as="sourcePoint" />
+            <mxPoint x="350" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="490" />
+              <mxPoint x="370" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-32" value="根据员工企微ID列表&lt;br&gt;查询员工ID&lt;br&gt;[dustess_cgb_risk]&lt;br&gt;cgb_chatdata_employee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cPGbE8Y1nv4g0ajra35U-31">
+          <mxGeometry x="-0.0587" y="-3" relative="1" as="geometry">
+            <mxPoint x="69" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-18" value="每次1000个员工&lt;br&gt;轮询统计每个员工&lt;br&gt;会话消息和群聊分析" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="213" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
