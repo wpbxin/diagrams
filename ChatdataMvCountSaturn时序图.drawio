@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T08:06:13.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="fHzuAPvXxj5yRYvpaiDw" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T08:13:51.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="HzFv4_SdMDTeL-BEchai" version="17.4.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1926" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
           <mxGeometry x="600" y="100" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-23" value="job-manage-archives&#xa;MsManageArchiveFeign" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="160" width="130" height="1320" as="geometry" />
+          <mxGeometry x="600" y="160" width="240" height="1320" as="geometry" />
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-23">
           <mxGeometry x="60" y="399" width="10" height="841" as="geometry" />
@@ -366,6 +366,40 @@
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-95" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-93">
           <mxGeometry x="65.46" y="1210" width="10.07" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-102" value="推送消息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.195;exitY=0.493;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.871;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-93">
+          <mxGeometry x="0.0498" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="61.49635000000012" y="1228.734" as="sourcePoint" />
+            <mxPoint x="-49.09206900709228" y="1228.962" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-98" value="MQ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="100" width="91" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-99" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-160" y="160" width="91" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-100" value="Kafka" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=1;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-99">
+          <mxGeometry width="91" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-107" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-99">
+          <mxGeometry x="40.46" y="1210" width="10.07" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-103" value="消费者" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+          <mxGeometry x="-341" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-104" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-342" y="160" width="141" height="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-105" value="api-manage-statistics&#xa;KafkaConsumerStatistics" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=1;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-104">
+          <mxGeometry width="141" height="1479.9999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-106" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-104">
+          <mxGeometry x="65.46" y="1210" width="10.07" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-108" value="&lt;font color=&quot;#000033&quot;&gt;统计员工的存档客户&lt;br&gt;countCustomerArchivesNum&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1300" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
