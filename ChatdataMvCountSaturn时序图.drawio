@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T03:41:06.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="bksv2hHM6uQVbeFo3LlN" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T06:25:38.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="w2CBryAF2dAWuAfwLZBJ" version="17.4.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="447" dy="248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,9 +160,9 @@
         <mxCell id="cPGbE8Y1nv4g0ajra35U-47" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-44">
           <mxGeometry x="80" y="428.5" width="10" height="371" as="geometry" />
         </mxCell>
-        <mxCell id="cPGbE8Y1nv4g0ajra35U-46" value="根据员工企微id统计会话&lt;br&gt;countChatdataCustomerMv" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.029;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.987;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="cPGbE8Y1nv4g0ajra35U-45" source="cPGbE8Y1nv4g0ajra35U-40">
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-46" value="根据员工企微id统计会话&lt;br&gt;countChatdataCustomerMv" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.029;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.019;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="cPGbE8Y1nv4g0ajra35U-45" source="cPGbE8Y1nv4g0ajra35U-40">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="850" y="581" as="sourcePoint" />
+            <mxPoint x="880" y="581" as="sourcePoint" />
             <mxPoint x="1025" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -176,12 +176,69 @@
           <mxGeometry x="1160" y="160" width="160" height="920" as="geometry" />
         </mxCell>
         <mxCell id="cPGbE8Y1nv4g0ajra35U-51" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-50">
-          <mxGeometry x="75" y="420" width="10" height="380" as="geometry" />
+          <mxGeometry x="75" y="495" width="10" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="cPGbE8Y1nv4g0ajra35U-53" value="根据员工企微id统计会话&lt;br&gt;countChatdataCustomerMv" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-50">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-110" y="500" as="sourcePoint" />
-            <mxPoint x="76.00000000000023" y="500.17999999999984" as="targetPoint" />
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-53" value="统计&amp;lt;=50个员工&lt;br&gt;获取存档客户&lt;br&gt;getArchivesCustomer" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-50">
+          <mxGeometry x="-0.032" y="-25" width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="505" as="sourcePoint" />
+            <mxPoint x="76.00000000000023" y="505.17999999999984" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-56" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-50">
+          <mxGeometry x="80" y="520" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-62" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="560" as="sourcePoint" />
+            <mxPoint x="90" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="570" />
+              <mxPoint x="110" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-63" value="存档员工列表公共查询构造&lt;br&gt;countEmployeeListQuery&lt;br&gt;今天 + (发送人是员工 或者 &lt;br&gt;接收人是员工)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cPGbE8Y1nv4g0ajra35U-62">
+          <mxGeometry x="-0.0587" y="-3" relative="1" as="geometry">
+            <mxPoint x="83" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-65" value="返回不超过50w条统计结果&lt;br&gt;发送人分组25w/接收人分组25w" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000033;exitX=0.053;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-50" source="cPGbE8Y1nv4g0ajra35U-59">
+          <mxGeometry x="-0.078" relative="1" as="geometry">
+            <mxPoint x="170" y="689.29" as="sourcePoint" />
+            <mxPoint x="90" y="689.29" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-54" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="520" as="sourcePoint" />
+            <mxPoint x="1260" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="530" />
+              <mxPoint x="1280" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-55" value="存档员工列表客户会话统计&lt;br&gt;countEmployeeListSingle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cPGbE8Y1nv4g0ajra35U-54">
+          <mxGeometry x="-0.0587" y="-3" relative="1" as="geometry">
+            <mxPoint x="83" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-57" value="ES集群" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-58" value="elaticsearch" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="160" width="160" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-59" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cPGbE8Y1nv4g0ajra35U-58">
+          <mxGeometry x="75" y="495" width="10" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="cPGbE8Y1nv4g0ajra35U-60" value="统计查询" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cPGbE8Y1nv4g0ajra35U-58">
+          <mxGeometry x="0.0753" y="-7" width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="649" as="sourcePoint" />
+            <mxPoint x="76.00000000000023" y="649.1799999999998" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
